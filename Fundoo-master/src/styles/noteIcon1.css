@@ -1,0 +1,33 @@
+
+.v-menu__content[data-v-75273e68] {
+    position: absolute;
+    display: -webkit-box;
+    max-width: 100%;
+    overflow-y: auleto;
+    overflow-x: hidden;
+    contain: content;
+    width: 260px !important;
+    height: 235px !important;
+    border-radius: 0px !important;
+  }
+  
+  .v-menu__content {
+    position: absolute;
+    display: inline-block;
+    max-width: 100%;
+    overflow-y: auleto;
+    overflow-x: hidden;
+    contain: content;
+    width: 34% !important;
+    height: 34% !important;
+    border-radius: 0px !important;
+  }
+  .theme--light.v-list {
+    background: #fff !important;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  /* audio:not(.md-image), canvas:not(.md-image), embed:not(.md-image), iframe:not(.md-image), img:not(.md-image), object:not(.md-image), video:not(.md-image) {
+      height: 15px !important;
+      padding-right: 12px !important;
+  } */
+  

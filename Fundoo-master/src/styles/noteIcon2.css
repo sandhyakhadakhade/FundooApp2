@@ -1,0 +1,129 @@
+
+.reminder_btn {
+    height: 20%;
+    width: 30%;
+  }
+  element.style {
+    position: absolute;
+    top: 241px !important;
+    left: 316px !important;
+    will-change: top, left;
+  }
+  .md-menu-content.md-menu-content-medium {
+    min-width: 140px !important;
+  }
+  .v-list__tile {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    height: 31px !important;
+    margin: 0;
+    padding: 0 2px !important;
+    position: relative;
+    text-decoration: none;
+    -webkit-transition: background 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    transition: background 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+  }
+  .v-menu__content {
+    position: absolute;
+    display: inline-block;
+    max-width: 100%;
+    overflow-y: auleto;
+    overflow-x: hidden;
+    contain: content;
+    width: 0% !important;
+  
+    height: 0% !important;
+    border-radius: 6px !important;
+  }
+  .color_color {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+  
+    padding: 0px;
+  }
+  .border_color {
+    display: none;
+  }
+  .color_color :hover {
+    border: 5px solid black;
+  }
+  .munu_bar {
+    display: flex;
+  }
+  .btn_note_bar {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    font-size: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1;
+    -webkit-transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    vertical-align: text-bottom;
+  }
+  .note_icon {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    font-size: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1;
+    -webkit-transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    vertical-align: text-bottom;
+  }
+  #app {
+    padding-top: 0px;
+  }
+  /* .note_icon{
+    display: flex;
+    flex-direction: row
+  } */
+  
+  .v-navigation-drawer__border {
+    display: none;
+  }
+  
+  .btn_note_bar:hover {
+    color: #000;
+  }
+  @media screen and (min-width: 769px) {
+    .notescontent {
+      text-align: center;
+      justify-content: center;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+  @media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    /* STYLES HERE */
+  }
+  @media only screen and (max-device-width: 480px) {
+    .notescontent {
+      text-align: center;
+      justify-content: center;
+    }
+  }
